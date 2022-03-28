@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ecommerse site</title>
     <!-- Linking bootstrap -->
     <link rel="stylesheet" href="/lib/css/bootstrap.min.css" />
-     <!-- Linking font awesome -->
-     <script
-     src="https://kit.fontawesome.com/178da8e8d6.js"
-     crossorigin="anonymous"
-   ></script>
+    <!-- Linking font awesome -->
+
+    <script
+      src="https://kit.fontawesome.com/178da8e8d6.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Linking custom css -->
     <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -29,17 +31,16 @@
           <nav class="navbar navbar-expand-lg">
             <a href="#" class="navbar-brand">Company Logo</a>
             <button
-            
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDarkDropdown"
-            aria-controls="navbarNavDarkDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span> <i class="fas fa-bars fa-2x"></i></span>
-          </button>
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDarkDropdown"
+              aria-controls="navbarNavDarkDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span> <i class="fas fa-bars fa-2x"></i></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav ms-auto">
@@ -63,7 +64,24 @@
           </nav>
         </div>
       </div>
-      <div class="last-header"></div>
+      <div class="last-header py-3">
+        <div class="container" id="outer-container">
+          <form class="d-flex justify-content-center" id="d-flex">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="search"
+            />
+            
+            <button class="btn button mx-2">Login</button>
+            <button class="btn button">
+              <i class="fas fa-shopping-cart mx-1" id="shopping"></i>Cart
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- Linking bootstrap js -->
     <script src="/lib/js/bootstrap.min.js"></script>

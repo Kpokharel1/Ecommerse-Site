@@ -33,4 +33,48 @@ p{
 }
 .header-section .second-header ul li a{
     color: var(--secondary-color);
+    transition: .5s ease-in;
+
+}
+.header-section .second-header ul li a:hover{
+    color: #000;
+}
+.last-header{
+    background-color: var(--secondary-color);
+}
+#outer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#d-flex{
+    width: 100%;
+    
+}
+
+#search{
+    width: 50%;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+}
+#shopping{
+    display: inline;
+}
+.header-button button{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+
+/* Utility Classes */
+.button{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s ease-in-out;
+
+}
+.button:hover{
+    background-color: var(--primary-color);
 }
