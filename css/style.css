@@ -1,0 +1,36 @@
+/* Base rules */
+:root{
+    --primary-color:#ffdde2ff;
+    --secondary-color:	#faa094ff;
+    --tritary-color:#9ed9ccff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 18px;
+}
+
+/* Header section */
+.header-section .first-header{
+    background-color: var(--tritary-color);
+    color: #fff;
+}
+.header-section .second-header ul li{
+    margin-left: 40px;
+    
+
+}
+.header-section .second-header ul li a{
+    color: var(--secondary-color);
+}
