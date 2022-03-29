@@ -105,7 +105,148 @@ p{
 .product h5{
     color: #000;
 }
-  
+/* /product section */
+/* Catagories Section */
+.catagories{
+    background-color: var(--tritary-color);
+}
+.catagories1{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories1:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories1.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.catagories button{
+    background: transparent;
+    border: 1px solid #fff;
+    
+    opacity: 0;
+    transition: .3s ease-out;
+}
+.catagories button:hover{
+    background: #000;
+    color: #fff;
+
+}
+.catagories1:hover button{
+    opacity: 100%;
+    
+}
+.catagories2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories2:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories2.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.catagories2:hover button{
+    opacity: 100%;
+    
+}
+.catagories3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories3:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories3.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.catagories3:hover button{
+    opacity: 100%;
+    
+}
+.catagories4{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories4:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories4.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.catagories4:hover button{
+    opacity: 100%;
+    
+}
+.catagories5{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories5.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories5:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories5.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.catagories5:hover button{
+    opacity: 100%;
+    
+}
+.catagories6{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url(/img/catagories6.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:  ease-in;
+}
+.catagories6:hover{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories6.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.catagories6:hover button{
+    opacity: 100%;
+    
+}
 
 
 
