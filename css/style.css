@@ -1,276 +1,352 @@
 /* Base rules */
-:root{
-    --primary-color:#2a9d8f;
-    --secondary-color: #0D6063;
-    
-    --tritary-color: #C9500D;
-    ;
+:root {
+  --primary-color: #2a9d8f;
+  --secondary-color: #0d6063;
+
+  --tritary-color: #c9500d;
 }
 
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
-p{
-    font-family: 'Red Hat Mono', monospace;
-    font-size: 18px;
+p {
+  font-family: "Red Hat Mono", monospace;
+  font-size: 18px;
 }
 
 /* Header section */
-.header-section .first-header{
-    background-color: var(--tritary-color);
-    color: #fff;
+.header-section .first-header {
+  background-color: var(--tritary-color);
+  color: #fff;
 }
-.header-section .second-header ul li{
-    margin-left: 40px;
-    font-weight: bold;
-    
-
+.header-section .second-header ul li {
+  margin-left: 40px;
+  font-weight: bold;
 }
-.header-section .second-header ul li a{
-    color: var(--secondary-color);
-    transition: .5s ease-in;
-
+.header-section .second-header ul li a {
+  color: var(--secondary-color);
+  transition: 0.5s ease-in;
 }
-.header-section .second-header ul li a:hover{
-    color: #000;
+.header-section .second-header ul li a:hover {
+  color: #000;
 }
-.last-header{
-    background-color: rgb(218, 218, 218);
+.last-header {
+  background-color: rgb(218, 218, 218);
 }
-#outer-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#outer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-#d-flex{
-    width: 100%;
-    
+#d-flex {
+  width: 100%;
 }
 
-#search{
-    width: 50%;
-    background: transparent;
-    border: 2px solid var(--tritary-color);
-    padding: 10px;
-    border-radius:50px ;
+#search {
+  width: 50%;
+  background: transparent;
+  border: 2px solid var(--tritary-color);
+  padding: 10px;
+  border-radius: 50px;
 }
-#shopping{
-    display: inline;
+#shopping {
+  display: inline;
 }
 
 /* Slider section */
 /* Tpicks section */
-.Tpicks{
-   
+.Tpicks {
 }
 
-.Tpicks h3{
-    font-weight: bold;
-    color: var(--tritary-color);
+.Tpicks h3 {
+  font-weight: bold;
+  color: var(--tritary-color);
 }
-.Tpicks h5{
-    color: #000;
+.Tpicks h5 {
+  color: #000;
 }
 
-.Tpicks img{
-    width: 100%;
-    height: 40vh;
-    border-radius: 20px;
-    
+.Tpicks img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 20px;
 }
 /* /tpicks */
 /* Product section */
 
-
-
-.product img{
-    width: 100%;
-    height: 25vh;
-    border-radius: 20px;
-    
+.product img {
+  width: 100%;
+  height: 25vh;
+  border-radius: 20px;
 }
-.product h4{
-    color: var(--tritary-color);
-    font-weight: bold;
+.product h4 {
+  color: var(--tritary-color);
+  font-weight: bold;
 }
-.product h5{
-    color: #000;
+.product h5 {
+  color: #000;
 }
 /* /product section */
 /* Catagories Section */
-.catagories{
-    background-color: var(--tritary-color);
+.catagories {
+  background-color: var(--tritary-color);
 }
-.catagories1{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories1.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
+.catagories1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories1.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
 }
-.catagories1:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories1.jpg) ;
-    background-position: center;
-    background-size: cover;
+.catagories1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories1.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.catagories button{
-    background: transparent;
-    border: 1px solid #fff;
-    
-    opacity: 0;
-    transition: .3s ease-out;
-}
-.catagories button:hover{
-    background: #000;
-    color: #fff;
+.catagories button {
+  background: transparent;
+  border: 1px solid #fff;
 
+  opacity: 0;
+  transition: 0.3s ease-out;
 }
-.catagories1:hover button{
-    opacity: 100%;
-    
+.catagories button:hover {
+  background: #000;
+  color: #fff;
 }
-.catagories2{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories2.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
+.catagories1:hover button {
+  opacity: 100%;
 }
-.catagories2:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories2.jpg) ;
-    background-position: center;
-    background-size: cover;
+.catagories2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories2.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
 }
-
-.catagories2:hover button{
-    opacity: 100%;
-    
-}
-.catagories3{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories3.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
-}
-.catagories3:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories3.jpg) ;
-    background-position: center;
-    background-size: cover;
+.catagories2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories2.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.catagories3:hover button{
-    opacity: 100%;
-    
+.catagories2:hover button {
+  opacity: 100%;
 }
-.catagories4{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories4.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
+.catagories3 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories3.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
 }
-.catagories4:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories4.jpg) ;
-    background-position: center;
-    background-size: cover;
-}
-
-.catagories4:hover button{
-    opacity: 100%;
-    
-}
-.catagories5{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories5.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
-}
-.catagories5:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories5.jpg) ;
-    background-position: center;
-    background-size: cover;
+.catagories3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories3.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.catagories5:hover button{
-    opacity: 100%;
-    
+.catagories3:hover button {
+  opacity: 100%;
 }
-.catagories6{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background: url(/img/catagories6.jpg);
-    background-position: center;
-    background-size: cover;
-    transition:  ease-in;
+.catagories4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories4.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
 }
-.catagories6:hover{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(/img/catagories6.jpg) ;
-    background-position: center;
-    background-size: cover;
-}
-
-.catagories6:hover button{
-    opacity: 100%;
-    
+.catagories4:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
+.catagories4:hover button {
+  opacity: 100%;
+}
+.catagories5 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories5.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
+}
+.catagories5:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories5.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
+.catagories5:hover button {
+  opacity: 100%;
+}
+.catagories6 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/img/catagories6.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in;
+}
+.catagories6:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/catagories6.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
+.catagories6:hover button {
+  opacity: 100%;
+}
+/*/ catagories Section */
+/* Product Description section */
+.product-des h3 {
+  color: var(--secondary-color);
+}
+
+.product-des button,
+input {
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}
+
+.product-des input {
+  border: 2px solid var(--tritary-color);
+  width: 100%;
+  text-align: center;
+}
+
+.product-des button {
+  cursor: pointer;
+  background-color: #c9500d;
+}
+.pd-button {
+  display: flex;
+  justify-content: space-between;
+}
+.pd-button button {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+/* Product Description section */
+/* Footer section */
+.footer {
+  background-color: rgb(39, 39, 39);
+}
+.footer-list ul li {
+    margin-top: 10px;
+  list-style: none;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+  font-family: "Red Hat Mono", monospace;
+}
+#footer .button-footer .btn-circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+#footer .button-footer .btn-circle:hover {
+  background-color: rgb(0, 183, 255);
+}
+#footer .button-footer .btn-circle1 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+#footer .button-footer .btn-circle1:hover {
+  background-color: rgb(79, 79, 255);
+}
+#footer .button-footer .btn-circle2 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+#footer .button-footer .btn-circle2:hover {
+  background-color: blue;
+}
+#footer .button-footer .btn-circle3 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+#footer .button-footer .btn-circle3:hover {
+  background-color: red;
+}
+.footer .last-footer a{
+text-decoration: none;
+color: #fff;
+}
+/* /footer section */
 
 /* Utility Classes */
-.button{
+.button {
+  border: 1px solid var(--tritary-color);
+  background-color: var(--tritary-color);
+  color: #fff;
 
-    border: 1px solid var(--tritary-color);
-    background-color: var(--tritary-color);
-    color: #fff;
-    
-    border-radius: 10px;
-
+  border-radius: 10px;
 }
-.button:hover{
-    color: #fff;
+.button:hover {
+  color: #fff;
 }
-.button a{
-    text-decoration: none;
-    color: #fff;
+.button a {
+  text-decoration: none;
+  color: #fff;
 }
-.section-heading{
-   
-        font-weight: bold;
-        color: #0D6063;
-    
+.section-heading {
+  font-weight: bold;
+  color: #0d6063;
 }
