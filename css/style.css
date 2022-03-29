@@ -72,9 +72,7 @@ p{
 .Tpicks{
    
 }
-.Tpicks h1{
-    color: var(--secondary-color);
-}
+
 .Tpicks h3{
     font-weight: bold;
     color: var(--tritary-color);
@@ -97,7 +95,15 @@ p{
 .product img{
     width: 100%;
     height: 25vh;
+    border-radius: 20px;
     
+}
+.product h4{
+    color: var(--tritary-color);
+    font-weight: bold;
+}
+.product h5{
+    color: #000;
 }
   
 
@@ -116,4 +122,14 @@ p{
 }
 .button:hover{
     color: #fff;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.section-heading{
+   
+        font-weight: bold;
+        color: #0D6063;
+    
 }
